@@ -1,6 +1,15 @@
 h1 {
-    color: blue;
+    color: darkgreen;
 }
+
+h2 {
+    color: white;
+}
+
+li {
+    color: white;
+}
+
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
@@ -33,7 +42,7 @@ body {
 }
 
 #detalle {
-    background: #94b6d1;
+    background: #008d00;
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
@@ -53,7 +62,7 @@ body {
 input {
     width: 70%;
     padding: 12px 15px;
-    border: none;
+    border: none black;
     background-color: white;
 }
 
@@ -63,8 +72,8 @@ button {
     font-weight: bold;
     padding: 12px 45px;
     border-radius: 30px;
-    background-color: skyblue;
-    border: 1px solid skyblue;
+    background-color: #48ff31;
+    border: 1px solid #c2ff9d;
     color: #FFFFFF;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -82,7 +91,7 @@ button:active {
 }
 
 .resultado {
-    color: #0A81D1;
+    color: darkgreen;
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 5px;
